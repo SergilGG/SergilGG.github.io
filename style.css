@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    background: radial-gradient(circle, rgba(124,120,196,0.8491990546218487) 0%, rgba(165,96,226,0.7091430322128851) 43%, rgba(0,212,255,1) 100%);
+    color: rgb(191, 251, 255);
+    width: 100%;
+
+}
+
+.encabezado{
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(226, 253, 255);
+}
+
+.encabezado h1 {
+    font-size: 20px;
+}
+
+.nav-contenedor {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-contenedor a {
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(226, 253, 255);
+  }
+
+/* Change color on hover */
+.nav-contenedor a:hover {
+    background-color: rgba(174,174,255,10);
+    border: 1px rgb(211, 251, 255);
+    border-radius: 50%;
+}
+
+
+main section div div img {
+    max-width: 22%;
+    max-height: 22%;
+    display: inline-block;
+    padding: 5px;
+    margin: auto;
+}
+
+.fakeimg{
+    margin-left: 6rem;
+}
+
+main{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+main section div h2 {
+    text-align: center;
+}
+
+.left_column{
+    width: 25%;
+    height: 5rem;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.center_column{
+    width: 40%;
+    height: 5rem;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.image-profile{
+    border: 5px solid rgba(255, 0, 204, 0.303);
+    box-shadow: 5px 5px 5px rgb(34, 57, 58);
+    border-radius: 50%;
+    margin-top: 20px;
+    max-width: 32%;
+    max-height: 32%;
+
+}
+
+.image-profile:hover{
+    transform: rotate(360deg);
+}
+img:hover{
+    transition: 0.4s;
+}
+
+#card1{
+    margin-bottom: 20px;
+}
+
+#lema{
+    font-style: italic;
+    margin-bottom: 20px;
+}
+#proyects{
+    margin-bottom: 10px;
+}
+#tesis{
+    margin-bottom: 20px;
+}
+
+.rigth_column{
+    width: 20%;
+    height: 5rem;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: flex-end;
+    margin-left: 5rem;
+ 
+}
+.rigth_column,li,.first_element{
+    padding-top: 5px;
+    }
+    
+.rigth_column li{
+    padding: 2px;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+.profile{
+    width: 15rem;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+
+
+
+footer{
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
